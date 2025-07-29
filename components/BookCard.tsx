@@ -27,7 +27,12 @@ const BookCard = ({
         {isLoanedBook && (
           <div className="mt-3 w-full">
             <div className="book-loaned">
-              <Image src={"/icons/calender.svg"} width={18} height={18} alt="" />
+              <Image
+                src={"/icons/calender.svg"}
+                width={18}
+                height={18}
+                alt=""
+              />
               <p className="text-light-100"> 11 days left to return</p>
             </div>
 
